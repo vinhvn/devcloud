@@ -6,6 +6,8 @@ import ProjectDetails from './components/projects/ProjectDetails';
 import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import CreateProject from './components/projects/CreateProject';
+import NotFound from './components/splash/NotFound';
+import Home from './components/splash/Home';
 
 function App() {
     return (
@@ -13,11 +15,13 @@ function App() {
             <div className='App'>
                 <Navbar />
                 <Switch>
-                    <Route exact path={'/'} component={Dashboard} />
+                    <Route exact path={'/'} component={Home} />
+                    <Route path={'/dashboard'} component={Dashboard} />
                     <Route path={'/project/:id'} component={ProjectDetails} />
                     <Route path={'/login'} component={Login} />
                     <Route path={'/register'} component={Register} />
                     <Route path={'/create'} component={CreateProject} />
+                    <Route exact path={'*'} component={NotFound} />
                 </Switch>
             </div>
         </BrowserRouter>

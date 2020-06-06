@@ -40,3 +40,14 @@ code {
 .no-uppercase {
   text-transform: none;
 }
+
+.home {
+  position: fixed;
+  padding-bottom: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+.home-buttons .btn {
+  margin-left: 15px;
+}

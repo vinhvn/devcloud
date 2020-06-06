@@ -9,7 +9,10 @@ Credit to [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwU
 - React
 - React-Router
 - Redux
-- Firebase
+- Redux-Thunk
+- Firebase Auth
+- Firestore
+- Firebase Cloud Functions
 - Materialize CSS
 
 ## Available Scripts
