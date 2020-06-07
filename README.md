@@ -2,6 +2,8 @@
 
 A simple webapp, designed to mimick [devpost](https://devpost.com/).
 
+Currently hosted at [devcloud.vinhnguyen.ca](https://devcloud.vinhnguyen.ca)
+
 Credit to [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg) for his React tutorials and [Alex Pasquarella](https://www.alexpasquarella.com/) for the background image.
 
 ## Technologies
