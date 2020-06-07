@@ -15,6 +15,7 @@ Credit to [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwU
 - Firebase Auth
 - Firestore
 - Firebase Cloud Functions
+- Moment
 - Materialize CSS
 
 ## Available Scripts
